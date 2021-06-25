@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title> DNPAVN.COM </title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+<style>
+
+
+    body {
+        font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+
+/* Style the header */
+    header {
+        background-color: #fff;
+        padding: 5px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    }
+
+
+/* Create two columns/boxes that floats next to each other */
+
+
+/* Clear floats after the columns */
+
+
+/* Style the footer */
+   
+    html {
+        font-size: 62.5%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    html {
+        font-family: sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+
+
+
+
+
+       
+
+</style>
+
+
+</head>
+<body>
+    <header>
+
+        <div class="header">
+
+
+
+            <!-- Logo and menu -->
+            <div class="navbar">
+
+
+                <div class="logo">
+                    <img src="~/images/DNPAlogo.png" height="100" width="200" />
+                </div>
+
+
+                <div class="search">
+                    <form class="search_bar" action="/search">
+
+                        <input type="text" name="q" placeholder="Nhập mã hoặc tên sản phẩm" style="width: 90%;">
+                        <button type="submit" class="btn-search btn btn-link">
+                            <span class="fa fa-search" aria-hidden="true"> </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+
+                    </form>
+                </div>
+
+
+                <nav>
+                    <ul id="MenuItems">
+                        <li>
+
+                            <img src="~/images/dangky.png" width="20" , height=" 20" />
+                            <a style="color:#050505" class="fa fa-user" href="#"> ĐĂNG KÝ </a>
+                        </li>
+                        <li>
+                            <img src="~/images/dangnhap.png" width="20" , height=" 20" />
+                            <a style="color:#050505" class="fa fa-user" href="#"> ĐĂNG NHẬP</a>
+                        </li>
+                        <li>
+                            <img src="~/images/khuyenmai.png" width="20" , height=" 20" />
+                            <a style="color:#050505" class="fa fa-user" href="#"> KHUYẾN MÃI </a>
+                        </li>
+                        <li>
+                            <img src="./images/giohang.png" with="20" height="20">
+                            <a style="color:#050505" class="fa fa-user" href="#"> GIỎ HÀNG </a>
+                        </li>
+
+
+                    </ul>
+
+
+
+                </nav>
+
+
+
+
+
+            </div>
+            <!-- end logo and menu -->
+
+            <div class="info-top">
+                <nav>
+                    <ul>
+                        <li>
+                            <span><a style="color:#ea1c00" href="https://gearvn.com/pages/he-thong-showroom-gvn">Hệ thống Showroom tại TP. Hồ Chí Minh - Hà Nội</a></span>
+                        </li>
+
+                        <li><img src="//theme.hstatic.net/1000026716/1000440777/14/hotcall.svg?v=20416">  <span><a style="color:#ea1c00" href="https://gearvn.com/pages/he-thong-tong-dai-gearvn">Tổng đài</a></span></li>
+                        <li><img src="//theme.hstatic.net/1000026716/1000440777/14/youtube.png?v=20416"> <span><a style="color:#ea1c00" href="https://bit.ly/GearvnVideos">Videos</a></span></li>
+                        <li><img src="//theme.hstatic.net/1000026716/1000440777/14/gNewsFavIco.png?v=20416"> <span><a style="color:#ea1c00" href="https://gvn360.com">Tin công nghệ</a></span></li>
+                        <li><img src="//theme.hstatic.net/1000026716/1000440777/14/logo_hr.png?v=20416"> <span><a style="color:#ea1c00" href="https://tuyendung.gearvn.com/">Tuyển dụng</a></span></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+  
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="container">
+                <div  class="col-sm-4 col-xs-12">
+                    <div class="moduletable">
+                        <!--<h3> DNPAVN.COM - HI-END PC & GAMING GEAR</h3> -->
+                        <h3>Công ty TNHH Thương Mại  DNPAVN.COM </h3>
+                        <div class="custom">
+                            <h3 class="title-footer-2">	Email: hoangungdai@gmail.com<br></h3>
+                            <p style="font-size: 14px">
+                                <b>HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ:</b> (Làm việc từ 8h00 - 22h00)<br>
+                                <table style="width: 296px;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 211px;">Gọi mua hàng</td>
+                                            <td style="width: 105px;"><strong>1800 </strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 211px;">Hỗ trợ khách hàng</td>
+                                            <td style="width: 105px;"><strong>1800 </strong></td>
+                                        </tr>
+                                        <!--
+
+                                             <tr>
+                                             <td style="width: 211px;">Gọi bảo hành & kỹ thuật</td>
+                                             <td style="width: 105px;"><strong>1800 6274</strong></td>
+                                             </tr>
+
+                                                         <tr>
+                                                            <td style="width: 211px;">Showroom Quận 1</td>
+                                                            <td style="width: 105px;"><strong>1800 6073</strong></td>
+                                                         </tr>
+
+                                                         <tr>
+                                                            <td style="width: 211px;">Showroom Nhà Bè</td>
+                                                            <td style="width: 105px;"><strong>1800 6270</strong></td>
+                                                         </tr>
+                                        -->
+                                    </tbody>
+                                </table>
+
+                                <br>
+                                <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395" style="font-size: 16px; color: #0655a6; font-weight: bold;">Chính sách bảo hành</a><br>
+                                <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395" style="font-size: 16px; color: #0655a6; font-weight: bold;">Chính sách thanh toán</a><br>
+                                <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395" style="font-size: 16px; color: #0655a6; font-weight: bold;">Chính sách giao hàng</a><br>
+                                <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395" style="font-size: 16px; color: #0655a6; font-weight: bold;">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <h3 class="title-footer-2"></h3>
+                        <ul class="menu-footer">
+                        </ul>
+
+                        <a href="http://online.gov.vn/Home/WebDetails/74686" rel="nofollow">
+                            <img src="https://theme.hstatic.net/1000026716/1000440777/14/20150827110756-dathongbao.png" style="max-width: 300px;">
+                        </a>
+                        <!--
+                        <a href="https://gearvn.com/pages/chinh-sach-chung-bo-cong-thuong">
+                        Chính sách chung
+                        </a>
+                        <a href="https://gearvn.com/pages/chinh-sach-bao-mat-bo-cong-thuong">
+                        Chính sách bảo mật
+                        </a>
+
+                        <p>
+                        Công ty TNHH công nghệ  DNPAVN- GPKD số 0314827721 do Sở KH và ĐT TP Hồ Chí Minh cấp ngày 09/01/2018 – GĐ/Sở hữu website Trương Trọng Nhân
+                        Địa Chỉ: 5/11,Huỳnh Tấn Phát,Xã Phú Xuân Tp. HCMhttps://gearvn.com/?themeid=1000451040
+                        </p>
+                        -->
+                    </div>
+                </div>
+                <div id="user2" class="col-sm-5 col-xs-12">
+                    <div class="moduletable">
+                        <!--
+                        <h3>BẢN ĐỒ ĐẾN GEARVN</h3>
+                        -->
+                        <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395">
+                            <p style="font-size: 16px; display: inline">
+                                <b>HỆ THỐNG CỬA HÀNG:</b>
+                            </p>
+                        </a>
+                        <p style="display: inline">
+                        </p>
+                        <br>
+
+                        <p style="font-size: 14px; padding-top: 4px">
+                            <b>SHOWROOM HCM</b> (Làm việc từ 8h00 - 22h00) <br>
+                            - Địa chỉ 1: 5/11 Huỳnh Tấn Phát, Xã Phú Xuân, Huyện Nhà Bè.<br>
+                            - Địa chỉ 2: 100 Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1.
+
+                        </p>
+                        <p>
+                            Mua <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395">PC Gaming</a>, <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395">laptop gaming</a>, <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395">card màn hình</a>, <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395">màn hình máy tính</a>, <a href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395">ghế gaming</a>, thiết bị chơi game như PS5 hàng đầu Việt Nam bảo hành chính hãng. Mua online nhận nhiều ưu đãi hấp dẫn.<br>
+                        </p>
+
+
+                        <!-- Pháp nhân -->
+
+                        <p style="font-size: 14px; padding-top: 4px">
+                            - Công ty TNHH Thương Mại DNPA <br>
+                            - GPKD số 0316517394 do Sở KH và ĐT TP Hồ Chí Minh cấp ngày 01/10/2020 <br>
+                            - GĐ/Sở hữu website: Trương  Trọng Nhân <br>
+                        </p>
+                        <!-- Code veryfi DMCA Quocvu -->
+                        <a href="https://www.dmca.com/Protection/Status.aspx?ID=65147526-7602-46be-9047-e8c33f9fcbd3&amp;refurl=https://gearvn.com/" title="DMCA.com Protection Status" class="dmca-badge" rel="nofollow noopener noreferrer"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=65147526-7602-46be-9047-e8c33f9fcbd3" alt="DMCA.com Protection Status"></a>
+                        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+
+
+
+
+
+
+
+
+
+                        <ul class="menu fix-menu">
+                        </ul>
+
+                    </div>
+                </div>
+                <div id="user3" class="col-sm-3 col-xs-12">
+                    <div class="moduletable">
+                        <h3>Fanpage</h3>
+
+
+                        <div class="face-content">
+                            <div class="fb-like-box small--hide fb_iframe_widget" data-href="https://www.facebook.com/trongnhan3004/?viewas=100000686899395" data-height="375" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;color_scheme=dark&amp;container_width=666&amp;header=false&amp;height=375&amp;href=https%3A%2F%2Fwww.facebook.com%2Fgearvnhcm%2F&amp;locale=vi_VN&amp;sdk=joey&amp;show_border=false&amp;show_faces=true&amp;stream=true"><span style="vertical-align: bottom; width: 300px; height: 375px;"><iframe name="f163f0398422f7c" width="1000" height="375" data-testid="fb:like_box Facebook Social Plugin" title="fb:like_box Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/trongnhan3004/" style="border: none; visibility: visible; width: 300px; height: 375px;" class=""></iframe></span></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clr"></div>
+
+            </div>
+            <p>&copy; @DateTime.Now.Year - Nam An Dep Trai</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
