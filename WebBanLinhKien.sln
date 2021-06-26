@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanLinhKien", "WebBanLinhKien\WebBanLinhKien.csproj", "{D85329DC-4F18-46D1-84F3-E7EBE08AF837}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanLinhKien", "WebBanLinhKien\WebBanLinhKien.csproj", "{5BFE9D05-FDDC-42A6-9BC3-96C4D490E9B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D85329DC-4F18-46D1-84F3-E7EBE08AF837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D85329DC-4F18-46D1-84F3-E7EBE08AF837}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D85329DC-4F18-46D1-84F3-E7EBE08AF837}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D85329DC-4F18-46D1-84F3-E7EBE08AF837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFE9D05-FDDC-42A6-9BC3-96C4D490E9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFE9D05-FDDC-42A6-9BC3-96C4D490E9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFE9D05-FDDC-42A6-9BC3-96C4D490E9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFE9D05-FDDC-42A6-9BC3-96C4D490E9B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {627861E7-96FB-4316-8904-83AEE8A0785D}
+		SolutionGuid = {651C926A-83B7-4D33-9133-ADEB46E17FE3}
 	EndGlobalSection
 EndGlobal
